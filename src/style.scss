@@ -1,7 +1,23 @@
+body {
+  list-style: none;
+}
+
+
+.correct-answers {
+  position: fixed;
+  top: 0;
+  background-color: white;
+
+}
 .container {
   display: flex;
+  border: 2px solid red;
+}
+
+.help {
+  display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 }
 
@@ -11,7 +27,7 @@
 .incorrect {
   border-color:red
 }
-.set {
+.class-added {
   margin-top:2em;
   border: 3px solid white;
   font-family: 'Roboto Mono', monospace;
@@ -24,7 +40,6 @@ body {
   font-family: 'Roboto Mono', monospace;
   background-color: beige;
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
@@ -38,6 +53,7 @@ body {
   text-decoration: none;
   font-weight: bold;
   color: black;
+  margin-right: 500px;
 
 }
 
