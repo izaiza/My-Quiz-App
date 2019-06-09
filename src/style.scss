@@ -1,17 +1,27 @@
 body {
+  font-family: 'Roboto Mono', monospace;
+  background-color: beige;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   list-style: none;
 }
-
 
 .correct-answers {
   position: fixed;
   top: 0;
   background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: 1px solid black;
+  font-size: 20px;
 
 }
 .container {
   display: flex;
-  border: 2px solid red;
+  border: 2px solid black;
+  background-color: white;
 }
 
 .help {
@@ -19,14 +29,9 @@ body {
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
+  border-radius:  15px;
 }
 
-.correct {
-  border-color:green
-}
-.incorrect {
-  border-color:red
-}
 .class-added {
   margin-top:2em;
   border: 3px solid white;
@@ -36,40 +41,32 @@ body {
   align-items: center;
 }
 
-body {
-  font-family: 'Roboto Mono', monospace;
-  background-color: beige;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .play-again {
-  border: 2px solid black;
   background-color: white;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   text-decoration: none;
   font-weight: bold;
   color: black;
-  margin-right: 500px;
-
+  font-size: 20px;
 }
 
 .form-group label {
-  color: blue;
-  margin-bottom: 50px;
+  color: black;
+  display: flex;
+  flex-direction: row;
 }
 
 .form-group input {
   font-family: 'Roboto Mono', monospace;
   margin-right: 27px;
+  display: flex;
+  flex-direction: row;
 }
 
 button {
   font-family: 'Roboto Mono', monospace;
-
 }
 
 input {
@@ -77,10 +74,40 @@ input {
   margin-right: 27px;
 }
 
+
 .set input {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.play-again-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.need-help-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.submit-input {
+  display: flex;
+  flex-direction: row;
   font-family: 'Roboto Mono', monospace;
 
 }
 
-a {
+.form-group {
+  display: flex;
+  flex-direction: row;
+}
+
+.correct-answers-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
