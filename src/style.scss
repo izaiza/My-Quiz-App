@@ -52,13 +52,13 @@ body {
   font-size: 20px;
 }
 
-.form-group label {
+.form label {
   color: black;
   display: flex;
   flex-direction: row;
 }
 
-.form-group input {
+.form input {
   font-family: 'Roboto Mono', monospace;
   margin-right: 27px;
   display: flex;
@@ -100,7 +100,7 @@ input {
 
 }
 
-.form-group {
+.form {
   display: flex;
   flex-direction: row;
 }
@@ -110,4 +110,8 @@ input {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+
+.feedback-msg  {
+  font-size: 10px;
 }
